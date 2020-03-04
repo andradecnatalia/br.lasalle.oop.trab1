@@ -19,7 +19,15 @@ public class Motorista {
     			 System.out.println("Ponha as mãos no volante");
     		}
     	   }
+    	void andando()
+    	{
+    		maosnovolante= true;
 
+        }
+    	void estacionado()
+    	{
+    		maosnovolante = false;
+    	}
     	void status()
     	{
     		System.out.println("Classe Motorista");
